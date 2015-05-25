@@ -1,0 +1,25 @@
+{
+  "name": "tol-smoketests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^2.4.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.3",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.1.0"
+  },
+  "optionalDependencies": {
+    "selenium-standalone": "^4.4.0"
+  }
+}
